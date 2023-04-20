@@ -30,6 +30,10 @@ pipeline {
   -Dsonar.projectKey=team5codereview \
   -Dsonar.projectName='team5codereview' \
   -Dsonar.host.url=http://ec2-3-87-32-180.compute-1.amazonaws.com:9000 \
+  -Dsonar.token=sqp_9b06323fc4fcc8f028ae2515d68b9eb3f31b593bmvn clean verify sonar:sonar \
+  -Dsonar.projectKey=team5codereview \
+  -Dsonar.projectName='team5codereview' \
+  -Dsonar.host.url=http://ec2-3-87-32-180.compute-1.amazonaws.com:9000 \
   -Dsonar.token=sqp_9b06323fc4fcc8f028ae2515d68b9eb3f31b593b'
         }
     }
