@@ -26,7 +26,7 @@ pipeline {
     }
     stage('sonarscanner'){
       steps{
-ubuntu@team5-jenkins:~/mavenbuild/etech-mavenApp$ cat Jenkinsfile
+          sh 'lscpu'
 pipeline {
   agent any
   tools {
