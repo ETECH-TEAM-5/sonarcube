@@ -26,7 +26,7 @@ pipeline {
     }
     stage('codequality'){
         steps{
-       sh 'mvn clean verify sonar:sonar \
+       sh 'mvn clean verify sonar:sonar\
   -Dsonar.projectKey=jones \
   -Dsonar.projectName='jones' \
   -Dsonar.host.url=http://ec2-3-87-32-180.compute-1.amazonaws.com:9000 \
