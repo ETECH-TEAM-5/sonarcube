@@ -28,7 +28,7 @@ pipeline {
         steps{
        sh "mvn clean verify sonar:sonar \
   -Dsonar.projectKey=etech-team2 \
-  -Dsonar.host.url=http://107.22.87.19:9000 \
+  -Dsonar.host.url=http://ec2-44-211-42-13.compute-1.amazonaws.com:9000 \
   -Dsonar.login=sqp_6aa95f238a33feaaef6e288517bc6840ee9c94ba"
         }
     }
