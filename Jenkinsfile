@@ -29,7 +29,7 @@ pipeline {
        sh "mvn clean verify sonar:sonar \
   -Dsonar.projectKey=etech-team2 \
   -Dsonar.host.url=http://ec2-44-211-42-13.compute-1.amazonaws.com:9000 \
-  -Dsonar.login=sqp_6aa95f238a33feaaef6e288517bc6840ee9c94ba"
+  -Dsonar.login=sqp_ad35a43934764bb0e6153a4301ee99ebcb54ac3c"
         }
     }
   }
